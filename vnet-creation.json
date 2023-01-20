@@ -81,6 +81,12 @@
             "properties": {
               "addressPrefix": "[parameters('subnet2Prefix')]"
             }
+          },
+          {
+            "name": "subnet3",
+            "properties": {
+              "addressPrefix": "10.0.2.0/24"
+            }
           }
         ]
       }
