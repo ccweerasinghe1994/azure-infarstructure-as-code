@@ -16,7 +16,7 @@ jobs:
       with:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
-        template: ./azuredeploy.json
-        parameters: storageAccountType=Standard_LRS
+        template: ./vnet-creation.json
+        # parameters: storageAccountType=Standard_LRS
       # output containerName variable from template
     - run: echo ${{ steps.deploy.outputs.containerName }}
