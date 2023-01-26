@@ -1,0 +1,2 @@
+az deployment group create --resource-group test --template-file .\storage-account.bicep 
+

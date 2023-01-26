@@ -1,0 +1,5 @@
+templateFile="./azuredeploy.json"
+az deployment group create \
+  --name addstorageasdasd \
+  --resource-group myTestResourseGroup \
+  --template-file $templateFile
